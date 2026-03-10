@@ -1,55 +1,31 @@
-# 🎓 Alunos de SI (IFRS - Campus Vacaria)
-## Projeto Integrado de Recursos Humanos (RH)
+# 🎓 Alunos de SI — IFRS Campus Vacaria
 
-Este repositório centraliza as diretrizes e a organização do projeto prático de **Gestão de RH**, desenvolvido de forma modular pelos alunos do curso de Bacharelado em Sistemas de Informação.
+Bem-vindos à organização oficial de projetos do curso de **Bacharelado em Sistemas de Informação** do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS), Campus Vacaria.
 
-O projeto consiste em um ecossistema de microsserviços que se comunicam via APIs para automatizar processos de recrutamento, seleção e análise de dados.
-
----
-
-### 🛠️ Stack Tecnológica Padronizada
-Para garantir a interoperabilidade entre os módulos, todos os times utilizam:
-* **Linguagem:** Python 3.10+
-* **Framework Web:** [FastAPI](https://fastapi.tiangolo.com/)
-* **Comunicação:** REST APIs (JSON)
-* **Documentação:** Swagger/OpenAPI (disponível em cada módulo via `/docs`)
+Este espaço foi criado para centralizar, documentar e dar visibilidade aos projetos práticos desenvolvidos pelos acadêmicos ao longo da graduação, unindo teoria e prática em soluções de software reais.
 
 ---
 
-### 👥 Organização das Equipes e Escopo
-O projeto foi dividido em 5 grupos funcionais. Cada grupo é responsável por uma parte vital do fluxo de RH:
-
-| Grupo | Módulo / Escopo | Integrantes |
-| :--- | :--- | :--- |
-| **G1** | ✉️ **Mensageria** | Naiara, Maria Eduarda, Mauricio |
-| **G2** | 📅 **Agendamentos de Entrevistas** | Giovane, Gabriel Pertile, Carlos |
-| **G3** | 📋 **Cadastro (Empresas, Pessoas e Vagas)** | Josinei, Marcelo Boeira, João Pedro |
-| **G4** | 🤝 **Match (Vagas x Pessoas)** | Vagner, Marcos, Giancarlo |
-| **G5** | 📊 **Dashboards e Analytics** | Picheti, Gabriel Toledo, William |
-
-
+## 🚀 Sobre a Organização
+Nossa missão é promover o aprendizado colaborativo e o compartilhamento de conhecimento. Aqui, os alunos aplicam conceitos de:
+* **Engenharia de Software** e Gestão de Projetos;
+* Desenvolvimento **Full Stack** (Python, FastAPI, Django, JavaScript);
+* **Arquitetura de Sistemas** (Microsserviços e APIs);
+* **UX/UI Design** e Usabilidade;
+* Banco de Dados e Segurança da Informação.
 
 ---
 
-### 📈 Integração com Gestão de Projetos
-Este desenvolvimento não é apenas técnico, mas também uma aplicação prática da disciplina de **Gestão de Projetos**. 
-
-Cada aluno desempenha um papel específico dentro do seu time (ex: *Project Manager, Tech Lead, Developer, QA*), e os repositórios individuais devem refletir:
-1.  **Kanban/Project Board:** Acompanhamento de tarefas e prazos.
-2.  **Documentação de API:** Contratos claros para que os outros grupos possam consumir os dados.
-3.  **Versionamento:** Uso rigoroso de Commits Semânticos e Pull Requests.
+## 📂 Projeto em Destaque: Sistema de Gestão de RH
+Atualmente, as equipes estão colaborando no desenvolvimento de um **Ecossistema de Microsserviços para Recursos Humanos**, integrando as disciplinas de Programação e Gestão de Projetos.
 
 ---
 
-### 🚀 Fluxo de Integração
-1. O **G3** fornece a base de dados de candidatos e vagas.
-2. O **G4** consome os dados do G3 para gerar as combinações (matches).
-3. O **G2** utiliza os matches para agendar entrevistas.
-4. O **G1** realiza a comunicação entre as partes interessadas.
-5. O **G5** consome dados de todos os módulos acima para gerar insights e visualizações em tempo real.
+## 📍 Onde nos encontrar
+* **Instituição:** IFRS Campus Vacaria
+* **Localização:** Estrada Engenheiro João Viterbo de Oliveira, 3061, Zona Rural, CEP: 95219-899 - Vacaria, RS
+* **Curso:** Bacharelado em Sistemas de Informação
 
 ---
 
-### 📍 Localização
-**Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul** **Campus Vacaria** Curso: Bacharelado em Sistemas de Informação  
-Ano: 2026
+> "Transformando linhas de código em soluções para a comunidade."
